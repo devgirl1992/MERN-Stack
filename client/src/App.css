@@ -1,0 +1,31 @@
+.App {
+  background-color: aquamarine;
+}
+
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.shopping-list {
+  margin: auto 0;
+  margin-bottom: 10px;
+  border: dashed blueviolet;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in-out;
+}
